@@ -126,7 +126,7 @@ header{
   min-width: 50px;
 }
 
-header ul{
+nav ul{
   list-style-type: none;
   font-size: 1rem;
   text-wrap: nowrap;
@@ -882,6 +882,11 @@ article{
   padding: 7rem;
 }
 
+}
 
-
+@media (max-width: 460px) {
+  .testimonial-section-header{
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
